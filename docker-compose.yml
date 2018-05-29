@@ -1,0 +1,46 @@
+version: '2' 
+services:
+  manager:
+    image: ambari-server
+    container_name: master.amb
+    hostname: master.amb
+    ports:
+      - 8080:8080
+    stdin_open: true
+    tty: true
+
+  agent1:
+    image: ambari-agent
+    container_name: agent1.hdp
+    hostname: agent1.hdp
+    stdin_open: true
+    tty: true
+
+  agent2:
+    image: ambari-agent
+    container_name: agent2.hdp
+    hostname: agent2.hdp
+    stdin_open: true
+    tty: true
+
+  agent3:
+    image: ambari-agent
+    container_name: agent3.hdp
+    hostname: agent3.hdp
+    stdin_open: true
+    tty: true
+
+  agent4:
+    image: ambari-agent
+    container_name: agent4.hdp
+    hostname: agent4.hdp
+    stdin_open: true
+    tty: true
+
+  agent5:
+    image: ambari-agent
+    container_name: agent5.hdp
+    hostname: agent5.hdp
+    stdin_open: true
+    tty: true
+
