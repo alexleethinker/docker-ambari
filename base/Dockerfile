@@ -3,7 +3,7 @@ MAINTAINER Alex Lee
 
 USER root
 
-ENV LANG en_US.UTF-8
+ENV LANG C.UTF-8
 
 # install dev tools
 COPY ambari.list /etc/apt/sources.list.d/ambari.list
