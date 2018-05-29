@@ -1,0 +1,3 @@
+#VERSION_NUMBER=2.6.1.5-3
+deb http://192.168.123.1/ambari/ubuntu16/2.6.1.5-3 Ambari main
+
